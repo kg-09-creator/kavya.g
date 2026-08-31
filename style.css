@@ -1,0 +1,12 @@
+body {
+    background-color: rgb(252, 251, 220);
+}
+
+
+.intro {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+}
