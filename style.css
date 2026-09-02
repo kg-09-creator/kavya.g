@@ -1,12 +1,47 @@
-body {
-    background-color: rgb(252, 251, 220);
+h1 {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-
-.intro {
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+body {
+    background-color: rgb(232, 253, 255);    
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding: 10px;
     display:flex;
     flex-direction: column;
     text-align: center;
+}
+
+
+.intro {
+    font-style: italic;
+}
+
+.artbutton {
+    padding: 10px;
+    margin-right: 500px;
+    margin-left: 500px;
+    background-color: lightskyblue;
+    cursor:pointer;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.artbutton:hover {
+    background-color: rgb(36, 165, 245);
+
+}
+
+.photobutton {
+    padding: 10px;
+    margin-right: 500px;
+    margin-left: 500px;
+    background-color: lightskyblue;
+    cursor:pointer;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.photobutton:hover {
+    background-color: rgb(36, 165, 245);
+
 }
