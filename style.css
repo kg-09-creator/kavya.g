@@ -11,12 +11,16 @@ body {
     text-align: center;
 }
 
+.abtme {
+    color:aliceblue;
+}
 
 .intro {
     font-style: italic;
+    
 }
 
-.artbutton {
+button {
     padding: 10px;
     margin-right: 500px;
     margin-left: 500px;
@@ -26,22 +30,7 @@ body {
 
 }
 
-.artbutton:hover {
-    background-color: rgb(36, 165, 245);
-
-}
-
-.photobutton {
-    padding: 10px;
-    margin-right: 500px;
-    margin-left: 500px;
-    background-color: lightskyblue;
-    cursor:pointer;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
-}
-
-.photobutton:hover {
+button:hover {
     background-color: rgb(36, 165, 245);
 
 }
